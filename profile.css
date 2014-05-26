@@ -1,0 +1,82 @@
+body{
+	background:#000;
+}
+a{
+	color:#FFF;
+}
+a:hover{
+	color:#8A2DFF;
+}
+#page{
+	margin:0 auto;
+	width:960px;
+	border:solid black 1px;
+}
+#header{background:#000;padding:10px;}
+#headerLogo{margin-left:10px;color:#FFF;font-size:72px;font-weight:900;font-family:"Arial Black", Gadget, sans-serif;}
+#headerNav{position:relative;height:52px;margin-top:1px;border-top:solid black 1px;border-bottom:solid black 1px;background:#280d4a;
+}
+#headerNavLeft{
+	position:absolute;
+	top:1px;
+	left:0;
+	height:50px;
+	width:200px;
+	background:#000;
+}
+#headerNavLeft a{
+	position:absolute;
+	top:7px;
+	left:17px;
+	color:#FFF;
+	text-decoration:none;
+	font-size:36px;
+	font-weight:900;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#headerNavLeft a:hover{
+	color:#8A2DFF;
+}
+#headerNavTriangle{
+	width: 0; 
+	height: 0; 
+	position:absolute;
+	top:1px;
+	left:200px;;
+	border-bottom: 50px solid #000; 
+	border-right: 50px solid transparent;
+}
+#headerNavRight{
+	color:#FFF;
+	font-size:24px;
+	font-weight:900;
+	font-family:"Arial Black", Gadget, sans-serif;
+	position:absolute;
+	bottom:1px;
+	right:0;
+	width:610px;
+	background:#000;
+	text-align:right;
+	padding-left:2px;
+}
+#headerNavRight a{
+	color:#FFF;
+	text-decoration:none;
+	margin-right:20px;
+}
+#headerNavRight a:hover{
+	color:#8A2DFF;
+}
+#content{
+	min-height:420px;
+	background:#FFF;
+	margin-top:1px;}
+#footer{
+	background:#000;
+	height:10px;
+}
+#footerTop{
+	background:url("jaggedBackground.png");
+	height:8px;
+	margin-top:-8px;
+}

@@ -1,0 +1,53 @@
+#content{
+	background:#AAA;
+	padding:20px;
+	color:#FFF;
+	font-size:36px;
+	font-weight:900;
+	font-family:"Arial Black", Gadget, sans-serif;
+	position:relative;
+}
+#contentTitle{
+	background:#000;
+	float:left;
+	font-size:46px;
+	padding:3px 20px 3px 3px;
+}
+#contentText{
+	margin-top:10px;
+	font-size:30px;
+}
+#contentIcon{
+	margin-top:10px;
+}
+.blackBack{
+	background:#000;
+	color:#FFF;
+	float:left;
+	padding:3px 20px 3px 3px;
+}
+.blackBackIcon{
+	background:#000;
+	color:#FFF;
+	float:left;
+	padding:3px 20px 3px 3px;
+}
+.blackBackIcon img{
+	padding-right:5px;
+}
+
+.blackBackIcon div{
+	padding-top:2px;
+	float:right;
+}
+.qrCodeImg{
+	position:absolute;
+	width:150px;
+	height:150px;
+	bottom:28px;
+	right:20px;
+}
+#footerTop{
+	position:relative;
+	z-index:2;
+}
